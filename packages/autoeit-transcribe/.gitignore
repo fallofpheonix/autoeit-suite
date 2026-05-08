@@ -1,0 +1,67 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+*.log
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.xlsx
+output/
+submission/
+# OS/editor
+.idea/
+.vscode/
+
+# Python
+# Node/JS
+node_modules/
+coverage/
+.env.*
+!.env.example
+# Dart/Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+# Local data, models, and generated artifacts
+*.db
+*.db.bak
+*.sqlite
+*.sqlite3
+*.jsonl
+*.csv.tmp
+out/
+out_old/
+outputs/
+artifacts/runs/
+artifacts/checkpoints/
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.mp3
+*.wav
+*.m4a
+# Native build products
+*.o
+*.a
+*.dylib
+*.exe

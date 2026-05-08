@@ -1,0 +1,44 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Generated artifacts
+out/
+output/
+outputs/
+artifacts/
+*.log
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+*.db.bak
+
+# Data/model artifacts
+*.mp3
+*.wav
+*.m4a
+*.pt
+*.pth
+*.ckpt
+*.onnx
+models/**/*.bin

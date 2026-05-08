@@ -1,0 +1,18 @@
+pipeline:
+  expected_sentence_count: 30
+  language: "es"
+
+asr:
+  model_size: "large-v3"
+  device: "cpu"
+  compute_type: "int8"
+  beam_size: 5
+  vad_filter: true
+
+audio:
+  sample_rate: 16000
+  normalize_loudness: true
+
+postprocess:
+  preserve_disfluencies: true
+  remove_hallucinations: true

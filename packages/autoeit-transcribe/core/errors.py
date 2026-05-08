@@ -1,0 +1,2 @@
+class SubmissionValidationError(RuntimeError):
+    pass
