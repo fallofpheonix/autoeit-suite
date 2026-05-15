@@ -49,7 +49,7 @@ pytest
 autoeit/
   config/     rubric thresholds
   core/       text normalization, features, scoring rubric
-  services/   workbook I/O, pipeline orchestration
+  services/   workbook I/O, pipeline control-plane
   api/        CLI and Streamlit interface
 tests/
 ```

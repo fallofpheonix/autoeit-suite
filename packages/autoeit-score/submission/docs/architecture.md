@@ -6,7 +6,7 @@
   - text normalization,
   - feature extraction,
   - rubric decision tree.
-- `autoeit/services` — orchestration and workbook I/O.
+- `autoeit/services` — control-plane and workbook I/O.
 - `autoeit/api` — executable interfaces (CLI and Streamlit UI).
 - `autoeit/utils` — narrow shared utilities (path helpers).
 - `tests` — critical-path unit tests.

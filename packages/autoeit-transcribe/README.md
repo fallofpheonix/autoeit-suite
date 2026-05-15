@@ -24,7 +24,7 @@ python3 -m pytest tests -q
 ## Project Layout
 
 - `api/`: entrypoints (`api.cli`) and command wiring.
-- `services/`: orchestration logic for transcription and submission checks.
+- `services/`: control-plane logic for transcription and submission checks.
 - `core/`: domain models and shared errors.
 - `config/`: runtime request assembly from CLI args.
 - `utils/`: lightweight reusable helpers.

@@ -1,4 +1,4 @@
-"""Pipeline orchestration: load → score → aggregate → write.
+"""Pipeline control-plane: load → score → aggregate → write.
 
 The two public functions here cover the common use-cases:
   - run_pipeline: score a workbook, return a DataFrame
